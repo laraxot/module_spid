@@ -1,0 +1,11 @@
+{
+    "name": "Spid",
+    "alias": "spid",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Spid\\Providers\\SpidServiceProvider"
+    ],
+    "files": []
+}
