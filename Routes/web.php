@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,6 +13,6 @@
 |
 */
 
-Route::prefix('spid')->group(function() {
+Route::prefix('spid')->group(function () {
     Route::get('/', 'SpidController@index');
 });
