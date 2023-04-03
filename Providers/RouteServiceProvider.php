@@ -6,7 +6,8 @@ namespace Modules\Spid\Providers;
 
 use Modules\Xot\Providers\XotBaseRouteServiceProvider;
 
-class RouteServiceProvider extends XotBaseRouteServiceProvider {
+class RouteServiceProvider extends XotBaseRouteServiceProvider
+{
     protected string $moduleNamespace = 'Modules\Spid\Http\Controllers';
 
     protected string $module_dir = __DIR__;

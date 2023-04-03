@@ -7,13 +7,15 @@ namespace Modules\Spid\Database\Seeders;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Seeder;
 
-class SpidDatabaseSeeder extends Seeder {
+class SpidDatabaseSeeder extends Seeder
+{
     /**
      * Run the database seeds.
      *
      * @return void
      */
-    public function run() {
+    public function run()
+    {
         Model::unguard();
 
         // $this->call("OthersTableSeeder");
