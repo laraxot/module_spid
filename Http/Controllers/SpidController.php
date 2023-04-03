@@ -33,6 +33,7 @@ class SpidController extends Controller {
      * @return Renderable
      */
     public function store(Request $request) {
+        return view('payment::store');
     }
 
     /**
@@ -65,6 +66,7 @@ class SpidController extends Controller {
      * @return Renderable
      */
     public function update(Request $request, $id) {
+        return view('payment::update');
     }
 
     /**
@@ -75,5 +77,6 @@ class SpidController extends Controller {
      * @return Renderable
      */
     public function destroy($id) {
+        return view('payment::destroy');
     }
 }
